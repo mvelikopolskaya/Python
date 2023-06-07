@@ -13,4 +13,4 @@ def Power(num_one, num_two):
     if num_two == 0: return 1
     else: 
         return num_one * Power(num_one, num_two - 1)  
-print(Power(num_a, num_b))
+print(f"Число {num_a} в степени {num_b} равно {Power(num_a, num_b)}")
